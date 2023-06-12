@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rijen Maharjan, IT enthusiast</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1e51e7f25f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p>Junior Developer</p>
+                <h1>Hi, I'm <span>Rijen</span><br>from Kathmandu</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/rijen.png" alt="p2">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Rijen Maharjan, a passionate web developer. I specialize in front-end web development, creating modern and responsive websites that combine functionality with stunning design. I have a strong command of HTML, CSS, and JavaScript, along with expertise in popular frameworks like React and Bootstrap.
+
+                        My goal is to bring clients' visions to life by crafting seamless and engaging user experiences. I believe in the power of clean code, attention to detail, and continuous learning. I constantly stay updated with the latest web technologies and trends to deliver cutting-edge solutions.
+                        
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML5
+                                - CSS3
+                                - JavaScript
+                                - React
+                                - Bootstrap
+                                - Responsive Web Design
+                                - Git</li>
+                            <li><span>QA</span><br>Testing a software</li>
+                            <li><span>Project Management</span><br>Planning and organizing a project and its resources.</li>
+                            <li><span>Python Programming</span><br>Summer school course</li>
+                            <li><span>Application Development</span><br>Android application using java</li>
+                            <li><span>Object Oriented Programming</span><br>Understanding of Java</li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Development</span><br>Portfolio website</li>
+                           <li><span>E-commerce</span><br>E-commerce website using PHP larvel</li>
+                           <li><span>Software Development</span><br>Language used Python</li>
+                           <li><span>App Development</span><br>Language used Java</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Master's in Business Administration (MBA)</span><br>School of Management Tribhuvan University<br>2021-2023</li>
+                            <li><span>Bsc Hons. Computing</span><br>The British College <br>Affilated by Leeds Becket University, UK<br>2016-2020</li>
+                            <li><span>+2</span><br>Ideal Model H.S.School<br>2014-2016</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------service---------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>
+                        Web Development
+                    </h2>
+                    <ul>
+                    <li>Create website layout/user interface by using standard HTML/CSS practices</li>
+                    <li>Write well designed, testable, efficient code by using best software development practices</li>
+                    <li>Integrate data from various back-end services and databases</li>
+                    <li>Create and maintain software documentation</li>
+                    <li>Stay updated to emerging technologies/industry trends and apply them into operations and activities</li>
+                    </ul>
+
+                <a href="#">Learn more</a>
+                </div>
+                <div>
+                    
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>
+                        App Development
+                    </h2>
+                    <ul>
+                    <li>Design and build advanced applications for the Android platform</li>
+                    <li>Collaborate with cross-functional teams to define, design, and ship new features</li>
+                    <li>Work with outside data sources and APIs</li>
+                    <li>Work on bug fixing and improving application performance</li>
+                    <li>Continuously discover, evaluate, and implement new technologies to maximize development efficiency</li>
+                    </ul>
+                <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-duotone fa-crop-simple"></i>
+                    <h2>
+                        Quality Assurance
+                    </h2>
+                    <ul> 
+                            <li>Review requirements, specifications and technical design documents to provide timely and meaningful feedback
+                            <li>Create detailed, comprehensive and well-structured test plans and test cases</li>
+                            <li>Estimate, prioritize, plan and coordinate testing activities</li>
+                            <li>Design, develop and execute automation scripts using open source tools</li>
+                            <li>Identify, record, document thoroughly and track bugs</li>
+                            <li>Perform thorough regression testing when bugs are resolved</li>
+                            <li>Develop and apply testing processes for new and existing products to meet client needs</li>
+                    </ul>
+                <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- --------------portfolio---------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/download.png" alt="work">
+                        <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>Download my CV</p>
+                        <a href="#contact"><i class="fa-solid fa-up-right-from-square"></i></a>
+                         </div>
+                </div>
+                <div class="work">
+                    <img src="images/download.png" alt="work">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Download from App store</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/download.png" alt="work">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Download from App store</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- --------------------contact--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    
+                    <p><i class="fa-solid fa-paper-plane"></i>rijen.maharjan1234@gmail.com</p>
+                   
+                    <p> <i class="fa-solid fa-phone"></i>9813566480</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/rijenmaharjan1998"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/rijen.98/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/rijen-maharjan-5a558b135/"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="images/rijen cv (2023).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------copyright---------- -->
+    <div class="copyright">
+        <p><i class="fa-solid fa-copyright"></i> Copyright @ Rijen 2023</p>
+    </div>
+          
+    <script src="index.js" charset="UTF-8"></script>
+</body>
+</html>
